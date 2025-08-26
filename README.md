@@ -4,11 +4,6 @@ This project focuses on analyzing and monitoring **air quality** using both real
 It provides insights into **pollution levels**, visualizes the **Air Quality Index (AQI)**, and aims to spread awareness about creating a cleaner and healthier environment.
 
 ---
-# Air Quality Monitor 🫧
-
-A beginner-friendly project to **analyze and visualize air quality** data using Python.
-
----
 
 ## 🔧 Features
 
