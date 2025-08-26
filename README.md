@@ -20,14 +20,9 @@ It provides insights into **pollution levels**, visualizes the **Air Quality Ind
 ```plaintext
 .
 ├── Air_quality.ipynb        # Main Jupyter Notebook
-├── data/                    # Raw datasets (ignored in .gitignore)
+├── final_dataset.csv        # Raw datasets (ignored in .gitignore)
 ├── README.md                # Project documentation
-└── reports/                 # Saved charts and results (optional)
 ```
-
-> Tip: Exclude `data/` and other large files from GitHub using `.gitignore`.
-
----
 
 ## ✅ Requirements
 
@@ -98,54 +93,6 @@ Document insights and outputs here, such as:
 All generated figures can be stored in the `reports/` folder.
 
 ---
-
-## 🧪 Git Commands (for uploading to GitHub)
-
-Initial setup:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: Air Quality Monitor"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-git push -u origin main
-```
-
-For updates:
-
-```bash
-git add .
-git commit -m "Update: Added EDA and ML models"
-git push
-```
-
----
-
-## 🗂️ .gitignore (Recommended)
-
-```plaintext
-# Environments
-.venv/
-env/
-*.env
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Data & outputs
-data/
-reports/
-*.csv
-*.xlsx
-
-# OS files
-.DS_Store
-Thumbs.db
-```
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome. Please open an issue or submit a pull request for suggestions and improvements.
